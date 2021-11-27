@@ -1,0 +1,287 @@
+/* Styles for my main website in it261 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: beige; */
+    font-family: Arial, sans-serif;
+}
+
+header {
+   overflow: hidden;
+   background-color: rgba(33, 33, 33, 0.927);
+}
+
+.header-inner {
+    max-width: 1400px;
+}
+
+#logo {
+    float: left;
+    max-width: 100px;
+    margin: 2rem;
+}
+
+nav {
+    height: 50px;
+    float: right;
+}
+
+nav ul {
+    float: right;
+    margin: 3rem 4rem auto;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.current {
+    color: red;
+    font-weight: bold;
+}
+
+#wrapper {
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+/* values are based on a 940px grid. 580/940 */
+main {
+   width: 61.7%;
+   /* height: 400px; */
+   /* background-color: cadetblue; */
+   float: left;
+}
+
+.form-submit {
+    margin-top: 1rem;
+}
+
+main h1 {
+    text-align: center;
+    margin: 4.5rem auto 3rem auto;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: bolder;
+    font-size: 48px;
+    letter-spacing: 1px;
+}
+
+.gallery h1{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    padding: 5rem;
+    font-size: 45px;
+}
+
+main h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 1rem;
+}
+
+#about-form {
+    width: 100%;
+}
+
+#about-form p {
+    width: 85%;
+}
+
+#about-form h2 {
+    width: 90%;
+    margin-bottom: 2rem;
+}
+
+.feature h2 {
+    margin: 2rem auto;
+}
+
+.heading {
+    text-align: center;
+}
+
+main h2 i {
+    font-size: 38px;
+}
+
+main p {
+    max-width: 100%;
+    margin: 0 auto 1rem auto;
+    font-family: 'Quicksand', sans-serif;
+    grid-area: description;
+}
+
+main img {
+    display: block;
+    margin: 3rem auto 2rem auto;
+    grid-area: img;
+}
+
+.project h1 {
+    margin-bottom: 5rem;
+}
+
+.project li {
+    margin-bottom: 1rem;
+}
+
+.project p {
+    margin-bottom: 2.5rem;
+}
+
+#hero {
+    width:100%;
+}
+
+.project-view ul{
+    padding: 1rem 5rem;
+}
+
+.project-view li {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+.project-view h1 {
+    margin-left: 3rem;
+    max-width: 700px;
+}
+
+.project-view p {
+    padding: 0rem 5rem 1.5rem 5rem;
+    font-style: italic;
+}
+
+.database {
+    width: 100%;
+    padding: 3rem;
+}
+
+aside {
+    width: 38.17%;
+    /* background-color: chocolate; */
+    float: right;
+    margin-top: 18rem;
+} 
+
+aside h2 {
+    font-size: 38px;
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+aside p {
+    /* text-align: center; */
+    margin: auto auto 1rem auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+.project aside p {
+    max-width: 100%;
+    line-height: 2rem;
+    text-align: center;
+}
+
+aside ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+aside li {
+    margin-bottom: .5rem;
+}
+
+aside li a {
+    color:black;
+}
+
+aside img {
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+}
+
+.project aside {
+    margin-top: 14rem;
+}
+
+.project aside img {
+    margin-bottom: 2rem;
+}
+
+.project-view{
+    min-height: 200px;
+}
+
+.project-view img{
+    margin-top: -1rem;
+}
+
+.divider {
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+}
+
+section {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 4rem;
+    margin-top: -3rem;
+}
+
+section h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+
+section ul {
+    list-style-type: none;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+section ul li {
+    margin-bottom: .5rem;
+}
+
+section p {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 1rem;
+}
+
+footer {
+    height: 80px;
+    border-top: 1px solid black;
+    line-height: 50px;
+    clear: both;
+    font-size: 14px;
+}
+
+footer ul {
+    display: flex;
+    width: 1100px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+footer li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+}
